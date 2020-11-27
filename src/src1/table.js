@@ -7,6 +7,7 @@ import View from './view.jsx';
 import Edit from './edit.jsx'
 function Table(props) {
     console.log(props.value)
+    console.log('new value just added')
     const [user1, setuser] = useState([])
     const [name1, setname] = useState('')
     const [id1, setid] = useState(0)
